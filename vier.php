@@ -136,6 +136,53 @@
         <br>
         <p>
             <?php
+                $scooter = 1500;
+                $spaargeld = 400;
+                $verschil = $spaargeld - $scooter;
+                $verschil2 = $scooter - $spaargeld;
+                if(($spaargeld < $scooter) && ($verschil < -500)){
+                    echo "Je kunt beter een baantje zoeken. €" . "$verschil2";
+                } else if(($spaargeld < $scooter) && ($verschil > -500)){
+                    echo "het lukt bijna. €" . "$verschil2";
+                } else{
+                    echo "het lukt. U heeft €" . "$verschil" . " over.";
+                }
+            ?>
+        </p>
+        <br>
+        <h5>Opdracht 9</h5>
+        <br>
+        <p>
+            <?php
+                $zijde1 = 1;
+                $zijde2 = 2;
+                $zijde3 = 1;
+                $som = $zijde1 + $zijde3;
+                if($som > $zijde2){
+                    echo "kan wel!";
+                } else {
+                    echo "dit kan niet!";
+                }
+            ?>
+        </p>
+        <br>
+        <h5>Opdracht 10</h5>
+        <br>
+        <p>
+            <?php
+                $getal2 = 12;
+                echo "de waarde van variabele getal is: " . "$getal2" . "<br>";
+                echo "Optelling is als volgt: " . "<br>";
+                for($i = 0; $i <= $getal2; $i++){
+                    
+                }
+            ?>
+        </p>
+        <br>
+        <h5>Opdracht 11</h5>
+        <br>
+        <p>
+            <?php
                 
             ?>
         </p>

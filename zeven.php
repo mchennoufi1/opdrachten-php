@@ -6,11 +6,11 @@
             include("includes/verzameling.php");
         ?>
 
-        <title>Hoofdstuk 5 | Opdrachten boek</title>
+        <title>Hoofdstuk 7 | Opdrachten boek</title>
     </head>
 
     <?php
-        $page = "vijf";
+        $page = "zeven";
     ?>
 
     <body>
@@ -19,7 +19,7 @@
         ?>
 
         <br>
-        <h3>Hoofdstuk 5</h3>
+        <h3>Hoofdstuk 7</h3>
     </body>
     </body>
 
