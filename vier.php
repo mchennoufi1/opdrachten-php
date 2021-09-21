@@ -179,16 +179,31 @@
             ?>
         </p>
         <br>
-        <h5>Opdracht 11</h5>
-        <br>
+        <h5>Opdracht 12</h5>
         <p>
             <?php
-                
+                $dollar = 1.17;
+                $pond = 0.86;
+                $yen = 128.19;
+                $roepi = 86.46;
+                echo "<table border='1'>";
+                echo "<th>Euro</th>";
+                echo "<th>Amerikaanse dollar</th>";
+                echo "<th>Britse pond</th>";
+                echo "<th>Japanse Yen</th>";
+                echo "<th>Indiase Roepi</th>";
+                for($i = 1; $i <= 10; $i++){
+                    echo "<tr>";
+                    echo "<td>$i</td>";
+                    echo "<td>" . ($i * $dollar) . "</td>";
+                    echo "<td>" . ($i * $pond) . "</td>";
+                    echo "<td>" . ($i * $yen) . "</td>";
+                    echo "<td>" . ($i * $roepi) . "</td>";
+                    echo "</tr>";
+                }
             ?>
         </p>
     </body>
-    </body>
-
     <script src="js/mdb.min.js"></script>
     <script src="js/mdb.min.js.map"></script>
 <html>
