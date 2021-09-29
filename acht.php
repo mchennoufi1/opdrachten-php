@@ -4,7 +4,7 @@
 
         <?php 
             include("includes/head.php");
-            require("includes/database.php");
+            require("includes/link.php");
         ?>
 
         <title>Hoofdstuk 8 | Opdrachten boek</title>
