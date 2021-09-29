@@ -3,14 +3,15 @@
     <head>
         
         <?php 
-            include("includes/verzameling.php");
+            include("includes/head.php");
+            require("includes/database.php");
         ?>
 
-        <title>Hoofdstuk 7 | Opdrachten boek</title>
+        <title>Hoofdstuk 9 | Opdrachten boek</title>
     </head>
 
     <?php
-        $page = "zeven";
+        $page = "negen";
     ?>
 
     <body>
@@ -19,7 +20,7 @@
         ?>
 
         <br>
-        <h3>Hoofdstuk 7</h3>
+        <h3>Hoofdstuk 9</h3>
     </body>
     </body>
 

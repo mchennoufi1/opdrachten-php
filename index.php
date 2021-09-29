@@ -3,7 +3,7 @@
     <head>
 
         <?php 
-            include("includes/verzameling.php");
+            include("includes/head.php");
         ?>
 
         <title> Hoofdstuk 3 | Opdrachten boek </title>

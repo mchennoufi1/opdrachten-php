@@ -3,7 +3,8 @@
     <head>
 
         <?php 
-            include("includes/verzameling.php");
+            include("includes/head.php");
+            require("includes/database.php");
         ?>
 
         <title>Hoofdstuk 8 | Opdrachten boek</title>

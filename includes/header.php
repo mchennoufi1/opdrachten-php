@@ -18,10 +18,10 @@
                 style="<?php if($page == "opdracht14"){echo "color: black";}?>">Hoofdstuk 4 | Opdracht 14</a>
                 <a class="nav-link" href="opdracht15.php" 
                 style="<?php if($page == "opdracht15"){echo "color: black";}?>">Hoofdstuk 4 | Opdracht 15</a>
-                <a class="nav-link" href="zeven.php" 
-                style="<?php if($page == "zeven"){echo "color: black";}?>">Hoofdstuk 7</a>
                 <a class="nav-link" href="acht.php" 
                 style="<?php if($page == "acht"){echo "color: black";}?>">Hoofdstuk 8</a>
+                <a class="nav-link" href="negen.php" 
+                style="<?php if($page == "negen"){echo "color: black";}?>">Hoofdstuk 9</a>
             </div>
         </div>
     </div>
