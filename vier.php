@@ -18,6 +18,9 @@
             include("includes/header.php"); 
         ?>
         <br>
+        <p><a href="opdracht13.php">Opdracht 13</a></p>
+        <p><a href="opdracht14.php">Opdracht 14</a></p>
+        <p><a href="opdracht15.php">Opdracht 15</a></p>
         <h3>Hoofdstuk 4</h3>
         <br>
         <h4>4.4</h4>

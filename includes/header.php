@@ -12,12 +12,6 @@
                 style="<?php if($page == "drie"){echo "color: black";}?>">Hoofdstuk 3</a>
                 <a class="nav-link" href="vier.php" 
                 style="<?php if($page == "vier"){echo "color: black";}?>">Hoofdstuk 4</a>
-                <a class="nav-link" href="opdracht13.php" 
-                style="<?php if($page == "opdracht13"){echo "color: black";}?>">Hoofdstuk 4 | Opdracht 13</a>
-                <a class="nav-link" href="opdracht14.php" 
-                style="<?php if($page == "opdracht14"){echo "color: black";}?>">Hoofdstuk 4 | Opdracht 14</a>
-                <a class="nav-link" href="opdracht15.php" 
-                style="<?php if($page == "opdracht15"){echo "color: black";}?>">Hoofdstuk 4 | Opdracht 15</a>
                 <a class="nav-link" href="acht.php" 
                 style="<?php if($page == "acht"){echo "color: black";}?>">Hoofdstuk 8</a>
                 <a class="nav-link" href="negen.php" 
