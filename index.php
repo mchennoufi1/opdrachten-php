@@ -25,7 +25,7 @@
         <p>
             <?php
                 echo "Het is vandaag: " . date("l j F Y") . "<br>" ;
-                echo "Vandaag is het de " . date("z") . " dag van het jaar" . "<br>" ;
+                echo "Vandaag is het de " . date("z") . "e dag van het jaar" . "<br>" ;
                 echo date("l") . " is de " . date("w") . "e dag van de week" . "<br>" ;
                 echo "De maand " . date("F") . " heeft in totaal " . date("t") . " dagen" . "<br>" ;
                 if(date("L") == 1){
