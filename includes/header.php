@@ -12,6 +12,8 @@
                 style="<?php if($page == "drie"){echo "color: black";}?>">H3</a>
                 <a class="nav-link" href="vier.php" 
                 style="<?php if($page == "vier"){echo "color: black";}?>">H4</a>
+                <a class="nav-link" href="zes.php" 
+                style="<?php if($page == "zes"){echo "color: black";}?>">H6</a>
                 <a class="nav-link" href="zeven.php" 
                 style="<?php if($page == "zeven"){echo "color: black";}?>">H7</a>
                 <a class="nav-link" href="acht.php" 
