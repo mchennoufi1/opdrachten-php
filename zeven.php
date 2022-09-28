@@ -80,6 +80,9 @@
         <br>
         <h6>Opdracht 7</h6>
 
+        <br>
+        <h6>Opdracht 8</h6>
+
 </body>
     <script src="js/mdb.min.js"></script>
     <script src="js/mdb.min.js.map"></script>
