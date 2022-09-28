@@ -22,6 +22,7 @@
         <br>
         <h3>Hoofdstuk 7</h3>
         <form method="post" action="">
+            <h6>Opdracht 1</h6>
             <label>Bedrag exclusief BTW</label>
             <input type="text" name="bedrag"><br>
             <label>Laag, 6%
@@ -51,6 +52,34 @@
                 
                 
             ?>
+        <br>
+        <h6>Opdracht 6</h6>
+        <br>
+        <form method="post" action="">
+
+            <label>Cijfer:
+            <input type="text" name="usernumber"><br>
+            <label>
+            <br>
+            <input type="submit" name="toevoegen" value="Toevoegen">
+            <br><br>
+        </form>
+        <?php
+        if(isset($_POST['toevoegen'])){
+            $usernumber = filter_input(INPUT_POST, 'usernumber', FILTER_SANITIZE_NUMBER_INT);
+
+            $query = $db->prepare("INSERT INTO zes(number)
+                VALUE($usernumber)");
+            if($query->execute()){
+                echo "goed";
+            }
+        }
+        ?>
+
+
+        <br>
+        <h6>Opdracht 7</h6>
+
 </body>
     <script src="js/mdb.min.js"></script>
     <script src="js/mdb.min.js.map"></script>
